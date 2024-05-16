@@ -7,8 +7,6 @@ const styles = StyleSheet.create({
   }, 
   
   header: {
-    backgroundColor: '#000000',
-    flex: 1,
     alignItems: 'center',
   }, 
 
@@ -41,13 +39,13 @@ const styles = StyleSheet.create({
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 3
   },
-  
+
   line: {
     height: 2,
     width: '90%',
     backgroundColor: '#FF007A', 
     marginVertical: 32,
-  }
+  },
 })
 
 export default styles

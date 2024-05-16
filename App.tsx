@@ -1,6 +1,6 @@
 import Home from './src/screens/home/home'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import * as Font from 'expo-font'
 import AppLoading from 'expo-app-loading'
 
@@ -8,6 +8,7 @@ import AppLoading from 'expo-app-loading'
 const fetchFonts = () => {
   return Font.loadAsync({
     'JustAnotherHand-Regular': require('./src/assets/fonts/JustAnotherHand-Regular.ttf'),
+    'Kalam-Regular': require('./src/assets/fonts/Kalam-Regular.ttf'),
   })
 }
 
